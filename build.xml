@@ -48,7 +48,7 @@
 	<!-- 5.执行测试案例 -->
 	<!-- =================================================================== -->
 	<target name="junit" depends="clean,compile">
-		<junittest printsummary="true" fork="true">
+		<junit printsummary="true" fork="true">
 			<classpath refid="compile.path" />
 			<formatter type="xml" usefile="true" />
 			<batchtest fork="on" todir="${report.path}" haltonfailure="no">
@@ -56,7 +56,7 @@
 					<include name="**/*Test.class" />
 				</fileset>
 			</batchtest>
-		</junittest>
+		</junit>
 
 		
 		<!-- 产生单元测试报表文档 -->
