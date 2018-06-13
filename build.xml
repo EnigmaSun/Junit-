@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="TestDemo" default="junit" basedir=".">
+	<!-- =================================================================== -->
+	<!-- 1.变量设置  -->
+	<!-- =================================================================== -->
+
+	<!-- 源代码src路径 -->
+	<property name="src.path" value="src/java" />
+	<!-- 编译文件class路径 -->
+	<property name="build.path" value="build" />
+	<!-- 单元测试代码路径 -->
+	<property name="test.path" value="src/test" />
+	<!-- lib包路径 -->
+	<property name="lib.path" value="lib" />
+	<!-- 生成报告junit4.xml路径 -->
+	<property name="report.path" value="report" />
+
+	<!-- =================================================================== -->
+	<!-- 2.设置classpath -->
+	<!-- =================================================================== -->
+	<path id="compile.path">
+		<fileset dir="${lib.path}">
+			<include name="**/*.jar" />
+		</fileset>
+
+		<pathelement path="${build.path}" />
+	</path>
+
+	<!-- =================================================================== -->
+	<!-- 3.清除历史编译class -->
+	<!-- =================================================================== -->
+	<target name="clean" description="clean">
+		<delete dir="${build.path}" />
+		<delete dir="${report.path}" />
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- 4.编译测试文件，初始化目录 -->
+	<!-- =================================================================== -->
+	<target name="compile" description="compile">
+		<mkdir dir="${build.path}" />
+		<mkdir dir="${report.path}" />
+		<javac srcdir="${src.path}" destdir="${build.path}" classpathref="compile.path" includeantruntime="on" />
+		<javac srcdir="${test.path}" destdir="${build.path}" classpathref="compile.path" includeantruntime="on" />
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- 5.执行测试案例 -->
+	<!-- =================================================================== -->
+	<target name="junit" depends="clean,compile">
+		<junittest printsummary="true" fork="true">
+			<classpath refid="compile.path" />
+			<formatter type="xml" usefile="true" />
+			<batchtest fork="on" todir="${report.path}" haltonfailure="no">
+				<fileset dir="${build.path}">
+					<include name="**/*Test.class" />
+				</fileset>
+			</batchtest>
+		</junittest>
+
+		
+		<!-- 产生单元测试报表文档 -->
+		<junitreport todir="${report.path}">
+			<fileset dir="${report.path}">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${report.path}" />
+		</junitreport> 
+		
+		
+	</target>
+	<!-- =================================================================== -->
+	<!-- 6.清除Junit生成的报表文档 -->
+	<!-- =================================================================== -->
+
+	<target name="delete">
+		<delete dir="${report.path}" />
+	</target>
+
+</project>
