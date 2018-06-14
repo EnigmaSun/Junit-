@@ -1,0 +1,22 @@
+                                                +————code\Myutil——————SimpleCaculation（被测试类）<br>
+                              + ———— src————————+ <br>
+                              |                 +————test\Myuitl——————SimpleCaculationTest（测试执行类）<br>
+                              |<br>
+                              |                 +————code\Myutil——————SimpleCaculation.class(被编译后的被测试类字节码文件)<br>
+                              +——————bin————————+<br>
+                              |                 +————test\Myuitl——————SimpleCaculationTest.class(被编译后的测试执行类字节码文件)<br>
+                              |<br>
+                              |<br>
+                              +—————lib（存放编译需要的第三方包，诸如junit.jar等）<br>
+                              |<br>
+                              |<br>
+            Junit- —————————— +—————tool（存放后续测试方法需要的一些工具类）<br>
+                              |<br>
+                              |<br>
+                              +————report（用于存放junit的测试报告）<br>
+                              |<br>
+                              |<br>
+                              +————testCase（用于存放需要的测试用例，例如后续需要通过）<br>
+                              |<br>
+                              |<br>
+                              +—————build.xml(ant的构建文件，用于通过ant进行自动编译，测试，打包，输出报告)<br>
