@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="localhost.localdomain" id="0" name="SimpleCalculationTest" package="MyutilTest" skipped="0" tests="1" time="0.091" timestamp="2018-06-13T15:49:18">
+  <testsuite errors="0" failures="0" hostname="John_Sun" id="0" name="SimpleCalculationTest" package="test.MyutilTest" tests="3" time="0.067" timestamp="2018-06-14T11:40:54">
       <properties>
-          <property name="ant.project.invoked-targets" value="junit" />
-
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.boot.library.path" value="/home/apps/jdk1.8.0_171/jre/lib/amd64" />
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin" />
 
-          <property name="java.vm.version" value="25.171-b11" />
+          <property name="java.vm.version" value="25.131-b11" />
 
-          <property name="ant.library.dir" value="/home/apps/apache-ant-1.9.11/lib" />
+          <property name="ant.library.dir" value="C:\Program Files (x86)\ant1.7.1\lib" />
 
-          <property name="ant.version" value="Apache Ant(TM) version 1.9.11 compiled on March 23 2018" />
+          <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
 
-          <property name="ant.java.version" value="1.8" />
+          <property name="ant.java.version" value="1.6" />
 
           <property name="java.vm.vendor" value="Oracle Corporation" />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
-          <property name="path.separator" value=":" />
+          <property name="path.separator" value=";" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
           <property name="file.encoding.pkg" value="sun.io" />
 
+          <property name="user.script" value="" />
+
           <property name="user.country" value="CN" />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
-          <property name="sun.os.patch.level" value="unknown" />
+          <property name="sun.os.patch.level" value="" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
-          <property name="user.dir" value="/home/szy/Junit-Demo/Junit-" />
+          <property name="user.dir" value="D:\autotest\TestAnt\Junit—Demo\Junit-" />
 
-          <property name="java.runtime.version" value="1.8.0_171-b11" />
+          <property name="java.runtime.version" value="1.8.0_131-b11" />
 
-          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
 
-          <property name="basedir" value="/home/szy/Junit-Demo/Junit-" />
+          <property name="basedir" value="D:\autotest\TestAnt\Junit—Demo\Junit-" />
 
-          <property name="java.endorsed.dirs" value="/home/apps/jdk1.8.0_171/jre/lib/endorsed" />
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\endorsed" />
 
           <property name="os.arch" value="amd64" />
 
-          <property name="ant.project.default-target" value="junit" />
+          <property name="java.io.tmpdir" value="C:\Users\szy\AppData\Local\Temp\" />
 
-          <property name="java.io.tmpdir" value="/tmp" />
+          <property name="ant.core.lib" value="C:\Program Files (x86)\ant1.7.1\lib\ant.jar" />
 
-          <property name="ant.core.lib" value="/home/apps/apache-ant-1.9.11/lib/ant.jar" />
-
-          <property name="line.separator" value="&#xa;" />
+          <property name="line.separator" value=" " />
 
           <property name="java.vm.specification.vendor" value="Oracle Corporation" />
 
-          <property name="os.name" value="Linux" />
+          <property name="user.variant" value="" />
 
-          <property name="ant.home" value="/home/apps/apache-ant-1.9.11" />
+          <property name="os.name" value="Windows 10" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\ant1.7.1" />
 
           <property name="ant.project.name" value="TestDemo" />
 
-          <property name="ant.file.TestDemo" value="/home/szy/Junit-Demo/Junit-/build.xml" />
+          <property name="ant.file.TestDemo" value="D:\autotest\TestAnt\Junit—Demo\Junit-\build.xml" />
 
-          <property name="sun.jnu.encoding" value="UTF-8" />
+          <property name="sun.jnu.encoding" value="GBK" />
 
-          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;&quot;E:\Yonghong8.0\jdk\\bin;E:\Yonghong8.0\jdk\\jre\bin;&quot;;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Program Files\SlikSvn\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Google\Chrome\Application;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\software\Git\cmd;E:\Yonghong8.0\jdk\\bin;C:\Users\szy\AppData\Roaming\Python\Scripts;C:\Users\szy\AppData\Local\Microsoft\WindowsApps;C:\Users\szy\AppData\Roaming\npm;C:\Program Files (x86)\ant1.7.1\bin;C:\Program Files (x86)\flex 4.12.0\bin;C:\Program Files (x86)\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;E:\Yonghong7.1\r\R-3.2.1\bin\x64;E:\7.0.5\r\R-3.2.1\bin\x64;c:\Program Files\Saxonica\SaxonHE9.4N\bin;C:\Python27;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files (x86)\Mozilla Firefox;;D:\software\secureCRT\Fiddler;." />
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
           <property name="java.class.version" value="52.0" />
 
-          <property name="build.path" value="build" />
+          <property name="build.path" value="bin" />
 
           <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -80,33 +80,33 @@
 
           <property name="report.path" value="report" />
 
-          <property name="os.version" value="3.10.0-514.26.1.el7.x86_64" />
+          <property name="os.version" value="10.0" />
 
-          <property name="ant.file" value="/home/szy/Junit-Demo/Junit-/build.xml" />
+          <property name="ant.file" value="D:\autotest\TestAnt\Junit—Demo\Junit-\build.xml" />
 
-          <property name="user.home" value="/home/szy" />
+          <property name="user.home" value="C:\Users\szy" />
 
-          <property name="src.path" value="src/java" />
+          <property name="src.path" value="src/code" />
 
           <property name="user.timezone" value="" />
 
-          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
 
           <property name="java.specification.version" value="1.8" />
 
-          <property name="file.encoding" value="UTF-8" />
+          <property name="file.encoding" value="GBK" />
 
           <property name="user.name" value="szy" />
 
-          <property name="java.class.path" value="/home/szy/Junit-Demo/Junit-/lib/hamcrest-core-1.3.jar:/home/szy/Junit-Demo/Junit-/lib/junit.jar:/home/szy/Junit-Demo/Junit-/build:/home/szy/Junit-Demo/Junit-:/home/apps/jdk1.8.0_171/lib/dt.jar:/home/apps/jdk1.8.0_171/lib/tools.jar:/home/apps/apache-ant-1.9.11/lib/ant-launcher.jar:/home/apps/apache-ant-1.9.11/lib/ant.jar:/home/apps/apache-ant-1.9.11/lib/ant-junit.jar:/home/apps/apache-ant-1.9.11/lib/ant-junit4.jar" />
+          <property name="java.class.path" value="D:\autotest\TestAnt\Junit—Demo\Junit-\lib\hamcrest-core-1.3.jar;D:\autotest\TestAnt\Junit—Demo\Junit-\lib\junit.jar;D:\autotest\TestAnt\Junit—Demo\Junit-\bin;E:\Yonghong8.0\jdk\lib\dt.jar;E:\Yonghong8.0\jdk\lib\tools.jar;C:\Program Files (x86)\ant1.7.1\lib\junit.jar;C:\Program Files (x86)\ant1.7.1\lib\ant-launcher.jar;C:\Program Files (x86)\ant1.7.1\lib\ant.jar;C:\Program Files (x86)\ant1.7.1\lib\ant-junit.jar" />
 
           <property name="test.path" value="src/test" />
 
           <property name="java.vm.specification.version" value="1.8" />
 
-          <property name="java.home" value="/home/apps/jdk1.8.0_171/jre" />
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_131" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MyutilTest.SimpleCalculationTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/szy/Junit-Demo/Junit-/report/TEST-MyutilTest.SimpleCalculationTest.xml crashfile=/home/szy/Junit-Demo/Junit-/junitvmwatcher8821069285839644148.properties propsfile=/home/szy/Junit-Demo/Junit-/junit1064074985756068616.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.MyutilTest.SimpleCalculationTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\autotest\TestAnt\Junit—Demo\Junit-\report\TEST-test.MyutilTest.SimpleCalculationTest.xml crashfile=D:\autotest\TestAnt\Junit—Demo\Junit-\junitvmwatcher8097747008204981749.properties propsfile=D:\autotest\TestAnt\Junit—Demo\Junit-\junit2041755397887452274.properties" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -114,19 +114,21 @@
 
           <property name="user.language" value="zh" />
 
-          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="java.version" value="1.8.0_171" />
+          <property name="java.version" value="1.8.0_131" />
 
-          <property name="java.ext.dirs" value="/home/apps/jdk1.8.0_171/jre/lib/ext:/usr/java/packages/lib/ext" />
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
 
-          <property name="sun.boot.class.path" value="/home/apps/jdk1.8.0_171/jre/lib/resources.jar:/home/apps/jdk1.8.0_171/jre/lib/rt.jar:/home/apps/jdk1.8.0_171/jre/lib/sunrsasign.jar:/home/apps/jdk1.8.0_171/jre/lib/jsse.jar:/home/apps/jdk1.8.0_171/jre/lib/jce.jar:/home/apps/jdk1.8.0_171/jre/lib/charsets.jar:/home/apps/jdk1.8.0_171/jre/lib/jfr.jar:/home/apps/jdk1.8.0_171/jre/classes" />
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes" />
 
           <property name="java.vendor" value="Oracle Corporation" />
 
-          <property name="file.separator" value="/" />
+          <property name="sun.stderr.encoding" value="ms936" />
+
+          <property name="file.separator" value="\" />
 
           <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
 
@@ -134,21 +136,23 @@
 
           <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
 
-          <property name="ant.file.type.TestDemo" value="file" />
+          <property name="sun.stdout.encoding" value="ms936" />
 
-          <property name="ant.file.type" value="file" />
+          <property name="sun.desktop" value="windows" />
 
-          <property name="sun.desktop" value="gnome" />
-
-          <property name="sun.cpu.isalist" value="" />
+          <property name="sun.cpu.isalist" value="amd64" />
 
       </properties>
 
-      <testcase classname="MyutilTest.SimpleCalculationTest" name="AddTest" time="0.0" />
+      <testcase classname="test.MyutilTest.SimpleCalculationTest" name="AddTest[0]" time="0.002" />
 
-      <system-out><![CDATA[]]></system-out>
+      <testcase classname="test.MyutilTest.SimpleCalculationTest" name="AddTest[1]" time="0.0" />
 
-      <system-err><![CDATA[]]></system-err>
+      <testcase classname="test.MyutilTest.SimpleCalculationTest" name="AddTest[2]" time="0.0" />
+
+      <system-out />
+
+      <system-err />
 
   </testsuite>
 </testsuites>
