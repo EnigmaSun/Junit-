@@ -48,7 +48,11 @@
 	<!-- 5.执行测试案例 -->
 	<!-- =================================================================== -->
 	<target name="junit" depends="clean,compile">
+<<<<<<< HEAD
+		<junittest printsummary="true" fork="true">
+=======
 		<junit printsummary="true" fork="true">
+>>>>>>> ac5924006fdc85bc8faa133b9e67e0ff810d4d45
 			<classpath refid="compile.path" />
 			<formatter type="xml" usefile="true" />
 			<batchtest fork="on" todir="${report.path}" haltonfailure="no">
@@ -56,7 +60,11 @@
 					<include name="**/*Test.class" />
 				</fileset>
 			</batchtest>
+<<<<<<< HEAD
+		</junittest>
+=======
 		</junit>
+>>>>>>> ac5924006fdc85bc8faa133b9e67e0ff810d4d45
 
 		
 		<!-- 产生单元测试报表文档 -->
@@ -77,4 +85,8 @@
 		<delete dir="${report.path}" />
 	</target>
 
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> ac5924006fdc85bc8faa133b9e67e0ff810d4d45
